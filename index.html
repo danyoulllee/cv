@@ -1,0 +1,127 @@
+<!--This defines the version of html that we are using-->
+<!--It is currently an HTML5 document-->
+<!--docs.emmet.io/cheat-sheet to see all of the abbreviations-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <!--head holds info about the webpage and how it should handle the page-->
+  <head>
+    <!--meta tags tell the browser how it should render or display the webpage as well as give info to search engines
+          about the content of the website -->
+    <!--the meta elements give associated data to the html doc-->
+    <!--All the text is encoded using the UTF-8 encoding system-->
+    <!--unicode-table.com has all of the unicode characters for all of the different languages-->
+    <!--unicode also includes emojis as well-->
+    <!--This gives you the maximum chance for your website to be interpreted correctly (compatability) 
+        when visited by international users-->
+    <meta charset="UTF-8" />
+    <!--if name is set, it is document-level metadata, applying to the whole page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--if http-equiv is set, it is a pragma directive - information normally given
+        by the web server about how the web page is served-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dan's Personal Site</title>
+  </head>
+  <!--the body contains the contents of the website-->
+  <body>
+    <table cellspacing="20">
+      <tr>
+        <td><img src="" alt="Dan's profile picture" /></td>
+        <td>
+          <!--if you want to add an image, you must add the source-->
+          <h1>Dan's Profile</h1>
+          <p>
+            <!--em = represents stress emphasis of its contents while the <i> tag represents
+                  text that is set off from the normal prose, such as a foreign word, fictional chars thoughts,
+              or when the text refers to the definition of a word instead of representing its semantic meaning-->
+            <!--typically you should use <em> and <strong> rather than <i> and <b>-->
+            <em>
+              <strong>
+                <a href="https://www.appbrewery.co">Software Engineer</a>
+              </strong>
+            </em>
+          </p>
+          <p>
+            Teaching myself code to be able to expand my knowledge and become a
+            better web developer
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+    <h3>Books and Teachings</h3>
+    <ul>
+      <li>The Pragmatic Programmer</li>
+      <ul>
+        <li>Chapter 1-50</li>
+      </ul>
+      <li>You Don't Know JS</li>
+      <ul>
+        <li>Chapter 1-6</li>
+      </ul>
+    </ul>
+    <h3>Work Experience</h3>
+    <table cellspacing="10">
+      <thead>
+        <!--thead - table head-->
+        <!--this could've been outside of the table head and it would work the same-->
+        <!--these are separated because you might want to have different styles or functions-->
+        <tr>
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <!--tr is a row-->
+      <tr>
+        <!--td is a table element-->
+        <td>2015-2016</td>
+        <td>City MD Internship</td>
+      </tr>
+      <tr>
+        <td>2016-present</td>
+        <td>STORIS - Application Developer</td>
+      </tr>
+    </table>
+
+    <hr />
+    <h3>Hobbies</h3>
+    <ol>
+      <li>Music</li>
+      <li><a href="https://www.reddit.com">Coding</a></li>
+    </ol>
+    <h3>Skills</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>HTML</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>⭐</td>
+            </tr>
+          </table>
+        </td>
+
+        <td>
+          <table>
+            <tr>
+              <td>JS</td>
+              <td>⭐</td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td>⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+    <a href="contact.html">Contact Me</a>
+  </body>
+</html>
